@@ -1,0 +1,137 @@
+/* Global codes */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Itim", sans-serif;
+}
+
+.float-left {
+  float: left;
+}
+
+.box-def-padding-and-width {
+  padding: 2% 4% 2%;
+  width: 100%;
+}
+
+input, textarea {
+  outline-color: #3fc1c9;
+}
+
+select {
+  padding: 5px;
+  outline-color: #3fc1c9;
+  background-color: #2b2e4a;
+  color: white;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.def-btn {
+  cursor: pointer;
+  border: 2px solid #9a8194;
+}
+
+/* Box codes */
+.box {
+  background-color: #f4f9f9;
+  color: black;
+  width: 60%;
+  margin: 5% 20%;
+  padding: 2% 2%;
+}
+
+/* Box's Elements codes */
+/* Header codes */
+header h1 {
+  font-size: 35px;
+  margin-bottom: 2%;
+}
+
+header p {
+  margin: 10px 0;
+}
+
+/* Box 1 codes */
+.box-1 h1 {
+  padding-bottom: 2%;
+}
+
+.prsnl-form input {
+  margin: 1% 0 1%;
+  padding: 12px;
+  width: 100%;
+}
+
+.prsnl-form input[type=date] {
+  padding: 8px;
+  margin: 0;
+  width: 30%;
+}
+
+.prsnl-form-date {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/* Box 2 codes */
+.box-2 h1 {
+  margin-bottom: 20px;
+}
+
+.check-form label {
+  font-weight: 100;
+}
+
+.check-form input[type=checkbox] {
+  width: 25px;
+  height: 15px;
+}
+
+/* Box 3 codes */
+.box-3 {
+  padding-bottom: 2%;
+  font-size: 20px;
+}
+
+/* Box 4 codes */
+.box-4 h1 {
+  margin-bottom: 2%;
+}
+
+.box-4 textarea {
+  margin: 10px 0;
+}
+
+#attach-btn {
+  margin: 2% 0 0;
+  padding: 10px 20px;
+  background-color: #11999e;
+  font-size: 16px;
+  color: white;
+}
+
+#attach-btn:hover {
+  background-color: #252a34;
+}
+
+footer {
+  margin: 2% 0;
+}
+
+#send-btn {
+  padding: 10px 20px;
+  color: white;
+  background-color: #ff2e63;
+  font-size: 20px;
+}
+
+#send-btn:hover {
+  background-color: #252a34;
+}
