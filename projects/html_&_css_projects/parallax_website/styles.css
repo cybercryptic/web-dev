@@ -1,0 +1,74 @@
+/* Global codes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Elements codes */
+.def__code {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.pic1 {
+  background-image: url("https://wallpaperaccess.com/full/2637581.jpg");
+  text-align: center;
+}
+.global__h1 {
+  text-align: center;
+  color: white;
+  top: 45%;
+  position: relative;
+}
+.remain {
+  background-color: #23049d;
+  padding: 20px;
+  display: inline-block;
+}
+.pic1 button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background: none;
+  border: 2px solid #faf3f3;
+  color: white;
+  cursor: pointer;
+  margin: 20px 0;
+  top: 46%;
+  position: relative;
+}
+.pic1 button:hover {
+  color: #334443;
+  background-color: #fffbdf;
+}
+.pic2 {
+  background-image: url("https://wallpaperaccess.com/full/2029165.jpg");
+}
+.pic2 .content {
+  background-color: white;
+  color: black;
+}
+.pic3 {
+  background-image: url("https://i.redd.it/hjspg9m7n6a51.jpg");
+}
+.pic4 {
+  background-image: url("https://images.wallpapersden.com/image/download/neon-samurai-cyberpunk_a25mZmyUmZqaraWkpJRmbmdlrWZlbWU.jpg");
+}
+.pic5 {
+  background-image: url("https://wallpapersplanet.net/sites/default/files/1920x1080-wallpapers-38876-9713489.png");
+}
+.pic6 {
+  background-image: url("https://images.hdqwalls.com/download/cyberpunk-2077-minimal-4k-4b-1920x1080.jpg");
+}
+.content {
+  background-color: #334443;
+  padding: 4% 10%;
+  color: white;
+  font-size: 20px;
+}
