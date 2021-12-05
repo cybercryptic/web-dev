@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Good Vibes Form</title>
+</head>
+
+<body>
+  <h1 id="header">Good Vibes Form</h1>
+  <section class="box">
+    <h1 id="box__header">Tell us something positive that happened to you today.</h1>
+    <form id="box__survey__form" action="index.html" method="post">
+      <div class="box__main_tie">
+        <label for="name">Name</label>
+        <input type="text" name="name" value="Enter your name">
+      </div>
+      <div class="box__main_tie">
+        <label for="email">Email</label>
+        <input type="email" name="email" value="Enter your email">
+      </div>
+      <div class="box__main_tie">
+        <label for="rating">On a scale of 1-10, how good was it?</label>
+        <input type="number" name="rating" value="Enter a number between 1 and 10">
+      </div>
+      <div class="box__main_tie">
+        <label for="place">Where did it happen?</label>
+        <select class="survey__place" name="place-select">
+          <option value="At home">At home</option>
+          <option value="On my commute">On my commute</option>
+          <option value="At work">At work</option>
+          <option value="On the street">On the street</option>
+          <option value="Somewhere">Somewhere</option>
+        </select>
+      </div>
+      <div class="box__main_tie">
+        <label for="time">At what time of day did it happen?</label>
+        <div class="survey__time">
+          <input type="checkbox" name="time" value="morning"><label for="time">Morning</label><br/>
+          <input type="checkbox" name="time" value="afternoon"><label for="time">Afternoon</label><br/>
+          <input type="checkbox" name="time" value="evening"><label for="time">Evening</label><br/>
+        </div>
+      </div>
+      <div class="box__main_tie">
+        <label for="emotion">What emotions did you experience?<br/>(Select all that apply)</label>
+        <div class="survery__emotion">
+          <input type="checkbox" name="emotion" value="Excited"><label for="emotion">Excited</label>
+          <input type="checkbox" name="emotion" value="Humbled"><label for="emotion">Humbled</label>
+          <input type="checkbox" name="emotion" value="Elated"><label for="emotion">Elated</label>
+          <input type="checkbox" name="emotion" value="Loved"><label for="emotion">Loved</label>
+          <input type="checkbox" name="emotion" value="Enthusiastic"><label for="emotion">Enthusiastic</label>
+        </div>
+      </div>
+      <div class="box__main_tie">
+        <label for="exp">Please describe your positive experience.</label>
+        <textarea name="exp" rows="4" cols="40" value="Enter your experience here..."></textarea>
+      </div>
+    </form>
+  </section>
+</body>
+
+</html>
