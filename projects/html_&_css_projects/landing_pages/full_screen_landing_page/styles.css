@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  font-family: 'Stick', sans-serif;
+  text-align: center;
+}
+.main {
+  background-image: url("https://i.redd.it/v2cmfx8rbdv11.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+.content {
+  text-align: center;
+  position: relative;
+  top: 45%;
+}
+.content h1 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.content button {
+  font-family: 'Stick', sans-serif;
+  font-size: 20px;
+  padding: 10px 25px 15px;
+  background: none;
+  color: white;
+  border: white 3px solid;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.content button:hover {
+  background-color: #0281BD;
+  color: white;
+}
