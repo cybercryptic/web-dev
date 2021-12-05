@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  font-family: 'Tangerine', sans-serif;
+}
+.main {
+  background: #333 url("https://wallpaperaccess.com/full/4649028.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+.content {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  color: white;
+  padding: 2% 30%;
+}
+.content h1 {
+  font-size: 60px;
+  color: black;
+}
+.content p {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-size: 20px;
+  margin: 5px 0 10px;
+  padding: 0 30px;
+}
+.content button {
+  margin-top: 5px;
+  font-family: 'Black And White Picture', sans-serif;
+  padding: 1px 15px 3px;
+  background: none;
+  border: 3px solid #2B374F;
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+}
+.content button:hover {
+  background-color: #2B374F;
+  color: white;
+}
+.prince {
+  background-color: #EAEAEA;
+  text-align: center;
+  padding: 3% 10%;
+}
+.prince h1 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.prince img {
+}
+.prince__box1 p {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  margin: 10px;
+}
+.prince__box1 {
+
+}
+.prince__box2 {
+text-align: right;
+}
