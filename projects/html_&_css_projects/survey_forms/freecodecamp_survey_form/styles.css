@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: "Fira Sans";
+  background-color: #6C6DA7;
+  color: white;
+}
+.box {
+  margin: 2% 20%;
+}
+header {
+  text-align: center;
+  margin: 2% 0;
+}
+.survey-box {
+  padding: 3% 5%;
+  text-align: left;
+  background-color: #282846;
+}
+.t-label {
+  font-weight: bolder;
+  text-align: left;
+}
+.t-input {
+  margin: 1% 0;
+  width: 50%;
+  padding: 1% 0;
+}
+.t-input:hover {
+  border: 2px violet solid;
+}
+.t-input::placeholder {
+  font-weight: bolder;
+  padding-left: 2%;
+}
+input:checked {
+  outline: none;
+}
