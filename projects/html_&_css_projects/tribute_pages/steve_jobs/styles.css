@@ -1,0 +1,100 @@
+/* Global codes */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Slab', sans-serif;
+  background-color: #f4f9f9;
+}
+
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  background-color: #ccf2f4;
+}
+
+u {
+  background-color: #ffefa1;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #f25287;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.heads {
+  text-align: center;
+  padding: 20px;
+  font-size: 2em;
+}
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+}
+
+.float-left {
+  float: left;
+}
+
+/* Box codes */
+.box {
+  margin: 2% 10%;
+  text-align: center;
+}
+
+.box-1 {
+  width: 80%;
+  margin: 0 10% 2%;
+}
+
+.box-2 {
+  width: 60%;
+  text-align: left;
+}
+
+.box-3 {
+  width: 40%;
+  padding-left: 5%;
+}
+
+.box-4 {
+  width: 100%;
+  margin: 2% 0;
+  padding: 5%;
+  background-color: #f9f3f3;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+/* Box's Elements codes */
+.box-1 img {
+  border: 5px #a4ebf3 solid;
+}
+
+#quote {
+  margin: 10px 0;
+  font-size: 30px;
+}
+
+.box-2-d {
+  width: 15%;
+}
+
+#box-3-img {
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+footer {
+  float: left;
+  text-align: center;
+  width: 100%;
+}
