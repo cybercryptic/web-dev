@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.float-rigth {
+  float: right;
+}
+
+li {
+}
+
+.float-left {
+  float: left;
+}
+body, html {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.main {
+  background-color: #232931;
+  color: white;
+  padding: 10% 25%;
+}
+
+.main__content {
+  text-align: center;
+  padding: 20px 15px;
+}
+
+.main h1 {
+  margin-bottom: 20px;
+}
+
+.main p {
+  margin-bottom: 20px;
+}
+
+.main button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  border: 2px solid white;
+}
+
+.main button:hover {
+  background-color: #F73859;
+  color: white;
+}
+
+.featured {
+  text-align: center;
+  height: auto;
+  padding: 15px 0;
+  background-color: #232931;
+}
+
+.featured h2 {
+  color: white;
+  margin: 10px 0 30px 0;
+}
+
+/* Our Services codes */
+
+.Our__services {
+  padding: 2% 5%;
+  background-color: #f73859;
+  text-align: center;
+  color: white;
+  float: left;
+}
+
+.Our__services h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.card {
+  background-color: #f1d18a;
+  color: black;
+  text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-height: 1%;
+}
+
+.service__cards {
+  float: left;
+}
+
+.card__row {
+  float: left;
+  background-color: ;
+  padding: 2em 0;
+}
+
+.card__flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-self: center;
+  gap: 2em;
+}
+
+.card__flex > .card {
+  flex: 1 1 25%;
+  min-width: 30ch;
+}
+
+.card h3 {
+  padding: 1em;
+  border-bottom: 3px solid black;
+  width: 100%;
+  text-align: center;
+}
+
+.card p {
+  padding: 1.5em;
+}
+
+.card__li {
+  float: left;
+  text-align: left;
+  width: 100%;
+  padding: 0 40px 20px;
+}
+
+.card button {
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  width: 100%;
+  background-color: #232931;
+}
+
+.card button:hover {
+  background-color: #232931;
+}
+
+/* Testimonials */
+
+.testimonials {
+  padding: 3% 0 2%;
+  background: #232931;
+  text-align: center;
+  color: white;
+  float: left;
+}
+
+.testimonials button {
+  padding: 10px 15px;
+  background: none;
+  border: 3px solid white;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.testimonials button:hover {
+  background-color: #f73859;
+}
+
+#test-head {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.test-cards {
+  padding: 0 5%;
+  float: left;
+}
+
+.test-card {
+  font-style: italic;
+  font-family: 'Ubuntu', sans-serif;
+  border: 2px solid black;
+  padding: 2em;
+  background-color: white;
+  color: black;
+  box-shadow: 10px;
+  line-height: 1.6em;
+}
+
+.test__card__flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.test__card__flex > * {
+  flex: 1 1 40%;
+  min-width: 30ch;
+}
+
+/* Nxt codes */
+
+.nxt {
+  text-align: center;
+  float: left;
+  padding: 2% 4% 4%;
+  background-color: #f73859;
+}
+
+#nxt__head {
+  color: white;
+  margin: auto;
+  text-align: center;
+  padding: 1em;
+}
+
+.nxt__boxes {
+  float: left;
+  margin-top: 2%;
+}
+
+/* Nxt box */
+
+.nxt__box__flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+
+.nxt__box__flex > * {
+  flex: 1 1 40%;
+  min-width: 30ch;
+}
+
+.nxt__card {
+  background-color: #eeebdd;
+  padding: 20px 15px;
+  border: 3px solid #232931;
+}
+
+.nxt__card h2 {
+  margin-bottom: 10px;
+}
+
+.nxt button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  border: 2px solid black;
+  background-color: #f73859;
+}
+
+/* Footer */
+
+.feater {
+  text-align: center;
+  background-color: #1D1F26;
+  color: #ededed;
+  text-transform: uppercase;
+  float: left;
+  width: 100%;
+}
+
+.feater h4 {
+  padding-top: 20px;
+}
+
+@media (max-width: 700px) {
+
+  .main {
+    padding: 10% 5%;
+  }
+}
+
+@media (max-width: 1400px) {
+
+  .main {
+    padding: 10% 12%;
+  }
+}
