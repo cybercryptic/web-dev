@@ -1,0 +1,34 @@
+/* Global codes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  padding: 2% 25%;
+}
+input {
+  outline: none;
+}
+/* Box codes */
+#header {
+  text-align: center;
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px;
+  margin: 2% 0;
+}
+.box {
+  background-color: #02475e;
+  color: white;
+  padding: 2% 0;
+  text-align: center;
+}
+#box__survey__form {
+  margin: 4% 0;
+}
+.box__main_tie {
+  margin: 20px;
+  text-align: left;
+}
