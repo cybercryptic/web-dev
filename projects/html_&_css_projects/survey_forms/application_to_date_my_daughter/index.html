@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Application form</title>
+</head>
+
+<body>
+  <!-- Box -->
+  <section class="box float-left">
+    <!-- Header -->
+    <header class="txt-center">
+      <h1>Application form to date my daughter💕</h1>
+      <hr>
+      <p><strong>NOTE:</strong> Form is to be completed at least 21 days prior to date.</p>
+    </header>
+    <!-- Box 1 -->
+    <div class="box-1 float-left box-def-padding-and-width">
+      <!-- Personal Details -->
+      <h1>Personal details</h1>
+      <form class="prsnl-form txt-left" action="index.html" method="post">
+        <label for="fname">First Name</label><br />
+        <input type="text" name="fname" placeholder="Enter your first name.." required><br />
+        <label for="lname">Last Name</label><br />
+        <input type="text" name="lname" placeholder="Enter your last name.." required><br />
+        <label for="addr">Address</label><br />
+        <input type="text" name="addr" placeholder="Enter your address" required><br />
+        <label for="email">Email</label><br />
+        <input type="email" name="email" placeholder="Enter your email" required><br />
+        <label for="num">Phone number</label><br />
+        <input type="number" name="num" placeholder="Enter your number" required><br />
+        <div class="prsnl-form-date">
+          <label for="date">Date of proposed outing</label>
+          <input type="date" name="date" required>
+        </div>
+    </div>
+    <!-- Box 2 -->
+    <div class="box-2 float-left box-def-padding-and-width txt-left">
+      <h1 required>Check all that apply</h1>
+      <div class="check-form" action="index.html" method="post">
+        <input type="checkbox" name="Q1"><label for="Q1"> I have tattoos and/or piercings</label><br />
+        <input type="checkbox" name="Q1"><label for="Q1"> I am more than 2 years older than my daughter</label><br />
+        <input type="checkbox" name="Q1"><label for="Q1"> I own a panel van or V8 ute</label><br />
+        <input type="checkbox" name="Q1" checked><label for="Q1"> I work full-time</label><br />
+        <input type="checkbox" name="Q1" checked><label for="Q1"> I am out of debt</label><br />
+        <input type="checkbox" name="Q1" checked><label for="Q1"> Is the date at a well lit public location</label><br />
+      </div>
+    </div>
+    <!-- BOx 3 -->
+    <div class="box-3 float-left box-def-padding-and-width txt-left">
+      <div class="option-form" action="index.html" method="post">
+        <label for="persuasion">Political persuasion:</label>
+        <select id="atm" name="select" value="persuasion" required>
+          <option value="Select an option" selected>Select an option</option>
+          <option value="Left Wing">Left Wing</option>
+          <option value="Right Wing">Right Wing</option>
+          <option value="Conservative">Conservative</option>
+          <option value="Nazi">Nazi</option>
+        </select>
+        <!-- No need extra
+        <input type="text" id="ctm" name="persuasion" value="Custom" style="display: none;">
+        <button id="c-btn" onclick="fun()" type="button" name="button">Custom</button><br />
+      -->
+        <label for="academic">Education level completed:</label>
+        <select name="select" value="academic" required>
+          <option value="Select an option" selected>Select an option</option>
+          <option value="University">University</option>
+          <option value="College">College</option>
+          <option value="High school">High school</option>
+          <option value="None">None</option>
+        </select>
+      </div>
+    </div>
+    <!-- Box 4 -->
+    <div class="box-4 float-left box-def-padding-and-width txt-left">
+      <h1>Start with WHY?</h1>
+      <label for="why">In 50 words or more explain why you want to date my daughter</label><br />
+      <textarea name="why" rows="8" cols="80" placeholder="I want to date your daughter because..." required></textarea><br />
+      <label for="contact">Please upload contact details for 2 references</label>
+      <textarea name="contact" rows="8" cols="80" placeholder="These are my contact references..." required></textarea>
+      <p>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here:</p>
+      <button class="def-btn" id="attach-btn" type="button" name="button" required>Attach files</button>
+    </div>
+    <!-- Send button -->
+    <footer class="txt-center">
+      <button class="def-btn" id="send-btn" type="submit" name="button" onclick="funbun()">Send your application</button>
+    </footer>
+  </section>
+  <script>
+  function funbun() {
+    window.alert("We got your application");
+  }
+  </script>
+  <!-- Javascript Toggle action -->
+  <!-- No need this time
+  <script type="text/javascript">
+    function fun() {
+      if (document.getElementById('atm').style.display === "block") {
+        document.getElementById('atm').style.display = "none";
+        document.getElementById('ctm').style.display = "block";
+        document.getElementById('c-btn').innerHTML = "Options";
+      } else {
+        document.getElementById('atm').style.display = "block";
+        document.getElementById('ctm').style.display = "none";
+        document.getElementById('c-btn').innerHTML = "Custom";
+      }
+    }
+  </script>
+-->
+  <p style="color: #FFFFFF; text-align: center;">Coded by Trinadh on 7-5-2021</p>
+</body>
+
+</html>
